@@ -84,7 +84,6 @@
 		D411808D1F5E96F700217522 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = HttpServer/HTTPServer.h; sourceTree = "<group>"; };
 		D411808E1F5E96F700217522 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = HttpServer/HTTPServer.m; sourceTree = "<group>"; };
 		D411808F1F5E96F700217522 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = HttpServer/SynthesizeSingleton.h; sourceTree = "<group>"; };
-		D41180A01F5EA3CF00217522 /* AutomationKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutomationKit-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +120,6 @@
 				D41180631F5E960500217522 /* AutomationKit.m */,
 				D41180881F5E96CB00217522 /* HttpServer */,
 				D41180711F5E96B600217522 /* KIF */,
-				D41180A01F5EA3CF00217522 /* AutomationKit-Bridging-Header.h */,
 			);
 			path = AutomationKit;
 			sourceTree = "<group>";
@@ -409,6 +407,7 @@
 				D411806A1F5E960500217522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
