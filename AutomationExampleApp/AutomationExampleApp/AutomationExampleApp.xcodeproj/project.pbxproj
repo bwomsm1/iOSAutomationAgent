@@ -343,6 +343,7 @@
 				D411800F1F5E920A00217522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
