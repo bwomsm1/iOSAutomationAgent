@@ -11,7 +11,7 @@
 		D41180651F5E960500217522 /* AutomationKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D41180621F5E960500217522 /* AutomationKit.h */; };
 		D41180941F5E96F700217522 /* AppTextFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808A1F5E96F700217522 /* AppTextFileResponse.m */; };
 		D41180951F5E96F700217522 /* HTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808C1F5E96F700217522 /* HTTPResponseHandler.m */; };
-		D41180961F5E96F700217522 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808E1F5E96F700217522 /* HTTPServer.m */; };
+		D41180C81F5EBAC800217522 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808E1F5E96F700217522 /* HTTPServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -272,7 +272,7 @@
 			files = (
 				D41180641F5E960500217522 /* AutomationKit.m in Sources */,
 				D41180941F5E96F700217522 /* AppTextFileResponse.m in Sources */,
-				D41180961F5E96F700217522 /* HTTPServer.m in Sources */,
+				D41180C81F5EBAC800217522 /* HTTPServer.m in Sources */,
 				D41180951F5E96F700217522 /* HTTPResponseHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,7 @@
 #ifndef AutomationKit_Bridging_Header_h
 #define AutomationKit_Bridging_Header_h
 
-#import <AutomationKit/AutomationKit.h>
+#import "AutomationKit/AutomationKit.h"
 
 #import "AutomationKit/HttpServer/HTTPServer.h"
 

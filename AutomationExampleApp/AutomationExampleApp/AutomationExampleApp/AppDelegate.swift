@@ -23,7 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainViewController = MainViewController()
         window!.rootViewController = mainViewController
         window!.makeKeyAndVisible()
-    
+        
+        HTTPServer.shared().start()
         return true
     }
 

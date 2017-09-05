@@ -13,6 +13,7 @@
 		D41180141F5E927F00217522 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41180121F5E927F00217522 /* MainViewController.swift */; };
 		D411809B1F5E99BB00217522 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411809A1F5E99BB00217522 /* CFNetwork.framework */; };
 		D411809D1F5E9A2800217522 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411809C1F5E9A2800217522 /* AVFoundation.framework */; };
+		D41180C91F5EBBB600217522 /* libAutomationKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D41180701F5E960600217522 /* libAutomationKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41180C91F5EBBB600217522 /* libAutomationKit.a in Frameworks */,
 				D411809D1F5E9A2800217522 /* AVFoundation.framework in Frameworks */,
 				D411809B1F5E99BB00217522 /* CFNetwork.framework in Frameworks */,
 			);
