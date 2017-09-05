@@ -29,25 +29,32 @@ class MainViewController: UIViewController {
     }
     
     private func setupButtons() {
+        let width = UIScreen.main.bounds.width - 200.0 - 200.0
+        
         var offset = 1
-        let button1 = CustomButton(frame: CGRect(x: 100, y: 100*offset, width: 100, height: 50), backgroundColor: UIColor.red, title: "red", tag: offset)
+        let button1 = CustomButton(frame: CGRect(x: 200, y: 100*offset, width: Int(width), height: 50), backgroundColor: UIColor.red, title: "Red", tag: offset)
         button1.addTarget(self, action: #selector(buttonPressed(button:)), for: .touchUpInside)
         self.view.addSubview(button1)
         
         offset = 2
-        let button2 = CustomButton(frame: CGRect(x: 100, y: 100*offset, width: 100, height: 50), backgroundColor: UIColor.blue, title: "blue", tag: offset)
+        let button2 = CustomButton(frame: CGRect(x: 200, y: 100*offset, width: Int(width), height: 50), backgroundColor: UIColor.blue, title: "Blue", tag: offset)
         button2.addTarget(self, action: #selector(buttonPressed(button:)), for: .touchUpInside)
         self.view.addSubview(button2)
         
         offset = 3
-        let button3 = CustomButton(frame: CGRect(x: 100, y: 100*offset, width: 100, height: 50), backgroundColor: UIColor.yellow, title: "yellow", tag: offset)
+        let button3 = CustomButton(frame: CGRect(x: 200, y: 100*offset, width: Int(width), height: 50), backgroundColor: UIColor.yellow, title: "Yellow", tag: offset)
         button3.addTarget(self, action: #selector(buttonPressed(button:)), for: .touchUpInside)
         self.view.addSubview(button3)
         
         offset = 4
-        let button4 = CustomButton(frame: CGRect(x: 100, y: 100*4, width: 100, height: 50), backgroundColor: UIColor.green, title: "red", tag: offset)
+        let button4 = CustomButton(frame: CGRect(x: 200, y: 100*offset, width: Int(width), height: 50), backgroundColor: UIColor.green, title: "Green", tag: offset)
         button4.addTarget(self, action: #selector(buttonPressed(button:)), for: .touchUpInside)
         self.view.addSubview(button4)
+        
+        offset = 5
+        let button5 = CustomButton(frame: CGRect(x: 200, y: 100*offset, width: Int(width), height: 50), backgroundColor: UIColor.orange, title: "Orange", tag: offset)
+        button5.addTarget(self, action: #selector(buttonPressed(button:)), for: .touchUpInside)
+        self.view.addSubview(button5)
     }
     
     private func setupMainViewController() {
