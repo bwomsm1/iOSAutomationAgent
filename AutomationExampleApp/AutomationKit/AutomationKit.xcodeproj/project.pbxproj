@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D41180641F5E960500217522 /* AutomationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D41180631F5E960500217522 /* AutomationKit.m */; };
+		D41180651F5E960500217522 /* AutomationKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D41180621F5E960500217522 /* AutomationKit.h */; };
+		D41180941F5E96F700217522 /* AppTextFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808A1F5E96F700217522 /* AppTextFileResponse.m */; };
+		D41180951F5E96F700217522 /* HTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808C1F5E96F700217522 /* HTTPResponseHandler.m */; };
+		D41180961F5E96F700217522 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808E1F5E96F700217522 /* HTTPServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D411807C1F5E96C300217522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
+			remoteInfo = KIF;
+		};
+		D411807E1F5E96C300217522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
+			remoteInfo = "Test Host";
+		};
+		D41180801F5E96C300217522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
+			remoteInfo = "KIF Tests";
+		};
+		D41180821F5E96C300217522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CC9673B1AD4B1B600576D13;
+			remoteInfo = KIFFramework;
+		};
+		D41180841F5E96C300217522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAB89FFC1CAC546900C6DFC1;
+			remoteInfo = KIFFrameworkConsumer;
+		};
+		D41180861F5E96C300217522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAB8A0141CAC546A00C6DFC1;
+			remoteInfo = KIFFrameworkConsumerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D411805D1F5E960500217522 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D41180651F5E960500217522 /* AutomationKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D411805F1F5E960500217522 /* libAutomationKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAutomationKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41180621F5E960500217522 /* AutomationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomationKit.h; sourceTree = "<group>"; };
+		D41180631F5E960500217522 /* AutomationKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomationKit.m; sourceTree = "<group>"; };
+		D41180721F5E96C300217522 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = KIF/KIF.xcodeproj; sourceTree = "<group>"; };
+		D41180891F5E96F700217522 /* AppTextFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppTextFileResponse.h; path = HttpServer/AppTextFileResponse.h; sourceTree = "<group>"; };
+		D411808A1F5E96F700217522 /* AppTextFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppTextFileResponse.m; path = HttpServer/AppTextFileResponse.m; sourceTree = "<group>"; };
+		D411808B1F5E96F700217522 /* HTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPResponseHandler.h; path = HttpServer/HTTPResponseHandler.h; sourceTree = "<group>"; };
+		D411808C1F5E96F700217522 /* HTTPResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPResponseHandler.m; path = HttpServer/HTTPResponseHandler.m; sourceTree = "<group>"; };
+		D411808D1F5E96F700217522 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = HttpServer/HTTPServer.h; sourceTree = "<group>"; };
+		D411808E1F5E96F700217522 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = HttpServer/HTTPServer.m; sourceTree = "<group>"; };
+		D411808F1F5E96F700217522 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = HttpServer/SynthesizeSingleton.h; sourceTree = "<group>"; };
+		D41180A01F5EA3CF00217522 /* AutomationKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutomationKit-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D411805C1F5E960500217522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D41180561F5E960500217522 = {
+			isa = PBXGroup;
+			children = (
+				D41180611F5E960500217522 /* AutomationKit */,
+				D41180601F5E960500217522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D41180601F5E960500217522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D411805F1F5E960500217522 /* libAutomationKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41180611F5E960500217522 /* AutomationKit */ = {
+			isa = PBXGroup;
+			children = (
+				D41180621F5E960500217522 /* AutomationKit.h */,
+				D41180631F5E960500217522 /* AutomationKit.m */,
+				D41180881F5E96CB00217522 /* HttpServer */,
+				D41180711F5E96B600217522 /* KIF */,
+				D41180A01F5EA3CF00217522 /* AutomationKit-Bridging-Header.h */,
+			);
+			path = AutomationKit;
+			sourceTree = "<group>";
+		};
+		D41180711F5E96B600217522 /* KIF */ = {
+			isa = PBXGroup;
+			children = (
+				D41180721F5E96C300217522 /* KIF.xcodeproj */,
+			);
+			name = KIF;
+			sourceTree = "<group>";
+		};
+		D41180731F5E96C300217522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D411807D1F5E96C300217522 /* libKIF.a */,
+				D411807F1F5E96C300217522 /* Test Host.app */,
+				D41180811F5E96C300217522 /* KIF Tests - XCTest.xctest */,
+				D41180831F5E96C300217522 /* KIF.framework */,
+				D41180851F5E96C300217522 /* KIFFrameworkConsumer.app */,
+				D41180871F5E96C300217522 /* KIFFrameworkConsumerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41180881F5E96CB00217522 /* HttpServer */ = {
+			isa = PBXGroup;
+			children = (
+				D41180891F5E96F700217522 /* AppTextFileResponse.h */,
+				D411808A1F5E96F700217522 /* AppTextFileResponse.m */,
+				D411808B1F5E96F700217522 /* HTTPResponseHandler.h */,
+				D411808C1F5E96F700217522 /* HTTPResponseHandler.m */,
+				D411808D1F5E96F700217522 /* HTTPServer.h */,
+				D411808E1F5E96F700217522 /* HTTPServer.m */,
+				D411808F1F5E96F700217522 /* SynthesizeSingleton.h */,
+			);
+			name = HttpServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D411805E1F5E960500217522 /* AutomationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41180681F5E960500217522 /* Build configuration list for PBXNativeTarget "AutomationKit" */;
+			buildPhases = (
+				D411805B1F5E960500217522 /* Sources */,
+				D411805C1F5E960500217522 /* Frameworks */,
+				D411805D1F5E960500217522 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomationKit;
+			productName = AutomationKit;
+			productReference = D411805F1F5E960500217522 /* libAutomationKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41180571F5E960500217522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Boaz Warshawsky";
+				TargetAttributes = {
+					D411805E1F5E960500217522 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B2K9DE64W6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D411805A1F5E960500217522 /* Build configuration list for PBXProject "AutomationKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D41180561F5E960500217522;
+			productRefGroup = D41180601F5E960500217522 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D41180731F5E96C300217522 /* Products */;
+					ProjectRef = D41180721F5E96C300217522 /* KIF.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D411805E1F5E960500217522 /* AutomationKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D411807D1F5E96C300217522 /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = D411807C1F5E96C300217522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D411807F1F5E96C300217522 /* Test Host.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Test Host.app";
+			remoteRef = D411807E1F5E96C300217522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D41180811F5E96C300217522 /* KIF Tests - XCTest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests - XCTest.xctest";
+			remoteRef = D41180801F5E96C300217522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D41180831F5E96C300217522 /* KIF.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KIF.framework;
+			remoteRef = D41180821F5E96C300217522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D41180851F5E96C300217522 /* KIFFrameworkConsumer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = KIFFrameworkConsumer.app;
+			remoteRef = D41180841F5E96C300217522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D41180871F5E96C300217522 /* KIFFrameworkConsumerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KIFFrameworkConsumerTests.xctest;
+			remoteRef = D41180861F5E96C300217522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D411805B1F5E960500217522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41180641F5E960500217522 /* AutomationKit.m in Sources */,
+				D41180941F5E96F700217522 /* AppTextFileResponse.m in Sources */,
+				D41180961F5E96F700217522 /* HTTPServer.m in Sources */,
+				D41180951F5E96F700217522 /* HTTPResponseHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D41180661F5E960500217522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D41180671F5E960500217522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D41180691F5E960500217522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B2K9DE64W6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D411806A1F5E960500217522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B2K9DE64W6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D411805A1F5E960500217522 /* Build configuration list for PBXProject "AutomationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41180661F5E960500217522 /* Debug */,
+				D41180671F5E960500217522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41180681F5E960500217522 /* Build configuration list for PBXNativeTarget "AutomationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41180691F5E960500217522 /* Debug */,
+				D411806A1F5E960500217522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41180571F5E960500217522 /* Project object */;
+}
