@@ -1,22 +1,17 @@
 //
-//  AutomationKit.h
+//  ElementryActions.h
 //  AutomationKit
 //
-//  Created by Boaz Warshawsky on 05/09/2017.
+//  Created by Boaz Warshawsky on 07/09/2017.
 //  Copyright © 2017 Boaz Warshawsky. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-
-
+#import "JSONRPCMethods.h"
 
 //=========================================================================
 // Public Interface
 //=========================================================================
-@interface AutomationKit : NSObject
-
-- (void) startAutomationKit;
-- (void) closeAutomationKit;
-
-+ (AutomationKit*) sharedInstance;
+@interface ElementryActions : NSObject <IJSONRPCMethodHandler>
+//+ (id)sharedManager;
 @end

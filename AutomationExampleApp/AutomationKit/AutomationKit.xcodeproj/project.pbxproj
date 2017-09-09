@@ -12,52 +12,34 @@
 		D41180941F5E96F700217522 /* AppTextFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808A1F5E96F700217522 /* AppTextFileResponse.m */; };
 		D41180951F5E96F700217522 /* HTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808C1F5E96F700217522 /* HTTPResponseHandler.m */; };
 		D41180C81F5EBAC800217522 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808E1F5E96F700217522 /* HTTPServer.m */; };
+		D44161131F6130AC00A6A583 /* JSONRPCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = D44161121F6130AC00A6A583 /* JSONRPCMethods.m */; };
+		D44161161F6130E800A6A583 /* JSONRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D44161151F6130E800A6A583 /* JSONRPCRequest.m */; };
+		D44161191F61314800A6A583 /* JSONRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D44161181F61314800A6A583 /* JSONRPCResponse.m */; };
+		D45028EB1F611E7A0036B82E /* ElementryActions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028EA1F611E7A0036B82E /* ElementryActions.m */; };
+		D45028EE1F611F1A0036B82E /* EnumerateElements.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028ED1F611F1A0036B82E /* EnumerateElements.m */; };
+		D45029191F61229D0036B82E /* CAAnimation+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028F11F61229D0036B82E /* CAAnimation+KIFAdditions.m */; };
+		D450291A1F61229D0036B82E /* CALayer-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028F31F61229D0036B82E /* CALayer-KIFAdditions.m */; };
+		D450291B1F61229D0036B82E /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028F51F61229D0036B82E /* CGGeometry-KIFAdditions.m */; };
+		D450291D1F61229D0036B82E /* NSError-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028FA1F61229D0036B82E /* NSError-KIFAdditions.m */; };
+		D450291E1F61229D0036B82E /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028FC1F61229D0036B82E /* NSException-KIFAdditions.m */; };
+		D450291F1F61229D0036B82E /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028FE1F61229D0036B82E /* NSFileManager-KIFAdditions.m */; };
+		D45029201F61229D0036B82E /* NSPredicate+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029001F61229D0036B82E /* NSPredicate+KIFAdditions.m */; };
+		D45029211F61229D0036B82E /* NSString+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029021F61229D0036B82E /* NSString+KIFAdditions.m */; };
+		D45029221F61229D0036B82E /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029041F61229D0036B82E /* UIAccessibilityElement-KIFAdditions.m */; };
+		D45029231F61229D0036B82E /* UIApplication-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029061F61229D0036B82E /* UIApplication-KIFAdditions.m */; };
+		D45029241F61229D0036B82E /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029081F61229D0036B82E /* UIEvent+KIFAdditions.m */; };
+		D45029251F61229D0036B82E /* UIScreen+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D450290A1F61229D0036B82E /* UIScreen+KIFAdditions.m */; };
+		D45029261F61229D0036B82E /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D450290C1F61229D0036B82E /* UIScrollView-KIFAdditions.m */; };
+		D45029271F61229D0036B82E /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D450290E1F61229D0036B82E /* UITableView-KIFAdditions.m */; };
+		D45029281F61229D0036B82E /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029101F61229D0036B82E /* UITouch-KIFAdditions.m */; };
+		D45029291F61229D0036B82E /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029121F61229D0036B82E /* UIView-Debugging.m */; };
+		D450292A1F61229D0036B82E /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029141F61229D0036B82E /* UIView-KIFAdditions.m */; };
+		D450292B1F61229D0036B82E /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029161F61229D0036B82E /* UIWindow-KIFAdditions.m */; };
+		D450292F1F6122FF0036B82E /* KIFTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = D450292E1F6122FF0036B82E /* KIFTestActor.m */; };
+		D45029321F61238C0036B82E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45029311F61238C0036B82E /* XCTest.framework */; };
+		D45029351F6123DE0036B82E /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029341F6123DE0036B82E /* IOHIDEvent+KIF.m */; };
+		D45029381F6129AD0036B82E /* UIElementUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029371F6129AC0036B82E /* UIElementUtils.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D411807C1F5E96C300217522 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
-			remoteInfo = KIF;
-		};
-		D411807E1F5E96C300217522 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
-			remoteInfo = "Test Host";
-		};
-		D41180801F5E96C300217522 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
-			remoteInfo = "KIF Tests";
-		};
-		D41180821F5E96C300217522 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9CC9673B1AD4B1B600576D13;
-			remoteInfo = KIFFramework;
-		};
-		D41180841F5E96C300217522 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FAB89FFC1CAC546900C6DFC1;
-			remoteInfo = KIFFrameworkConsumer;
-		};
-		D41180861F5E96C300217522 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41180721F5E96C300217522 /* KIF.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FAB8A0141CAC546A00C6DFC1;
-			remoteInfo = KIFFrameworkConsumerTests;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D411805D1F5E960500217522 /* CopyFiles */ = {
@@ -76,7 +58,6 @@
 		D411805F1F5E960500217522 /* libAutomationKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAutomationKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41180621F5E960500217522 /* AutomationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomationKit.h; sourceTree = "<group>"; };
 		D41180631F5E960500217522 /* AutomationKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomationKit.m; sourceTree = "<group>"; };
-		D41180721F5E96C300217522 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = KIF/KIF.xcodeproj; sourceTree = "<group>"; };
 		D41180891F5E96F700217522 /* AppTextFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppTextFileResponse.h; path = HttpServer/AppTextFileResponse.h; sourceTree = "<group>"; };
 		D411808A1F5E96F700217522 /* AppTextFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppTextFileResponse.m; path = HttpServer/AppTextFileResponse.m; sourceTree = "<group>"; };
 		D411808B1F5E96F700217522 /* HTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPResponseHandler.h; path = HttpServer/HTTPResponseHandler.h; sourceTree = "<group>"; };
@@ -85,6 +66,60 @@
 		D411808E1F5E96F700217522 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = HttpServer/HTTPServer.m; sourceTree = "<group>"; };
 		D411808F1F5E96F700217522 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = HttpServer/SynthesizeSingleton.h; sourceTree = "<group>"; };
 		D41180C61F5EAF6D00217522 /* AutomationKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutomationKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		D44161111F6130AC00A6A583 /* JSONRPCMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONRPCMethods.h; path = HttpServer/JSONRPCMethods.h; sourceTree = "<group>"; };
+		D44161121F6130AC00A6A583 /* JSONRPCMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONRPCMethods.m; path = HttpServer/JSONRPCMethods.m; sourceTree = "<group>"; };
+		D44161141F6130E800A6A583 /* JSONRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONRPCRequest.h; path = HttpServer/JSONRPCRequest.h; sourceTree = "<group>"; };
+		D44161151F6130E800A6A583 /* JSONRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONRPCRequest.m; path = HttpServer/JSONRPCRequest.m; sourceTree = "<group>"; };
+		D44161171F61314800A6A583 /* JSONRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONRPCResponse.h; path = HttpServer/JSONRPCResponse.h; sourceTree = "<group>"; };
+		D44161181F61314800A6A583 /* JSONRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONRPCResponse.m; path = HttpServer/JSONRPCResponse.m; sourceTree = "<group>"; };
+		D45028E91F611E7A0036B82E /* ElementryActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ElementryActions.h; path = API/ElementryActions.h; sourceTree = "<group>"; };
+		D45028EA1F611E7A0036B82E /* ElementryActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ElementryActions.m; path = API/ElementryActions.m; sourceTree = "<group>"; };
+		D45028EC1F611F1A0036B82E /* EnumerateElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnumerateElements.h; path = API/EnumerateElements.h; sourceTree = "<group>"; };
+		D45028ED1F611F1A0036B82E /* EnumerateElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnumerateElements.m; path = API/EnumerateElements.m; sourceTree = "<group>"; };
+		D45028F01F61229D0036B82E /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "UIGeometryUtils/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
+		D45028F11F61229D0036B82E /* CAAnimation+KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+KIFAdditions.m"; path = "UIGeometryUtils/CAAnimation+KIFAdditions.m"; sourceTree = "<group>"; };
+		D45028F21F61229D0036B82E /* CALayer-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer-KIFAdditions.h"; path = "UIGeometryUtils/CALayer-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45028F31F61229D0036B82E /* CALayer-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer-KIFAdditions.m"; path = "UIGeometryUtils/CALayer-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45028F41F61229D0036B82E /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CGGeometry-KIFAdditions.h"; path = "UIGeometryUtils/CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45028F51F61229D0036B82E /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry-KIFAdditions.m"; path = "UIGeometryUtils/CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45028F61F61229D0036B82E /* LoadableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = UIGeometryUtils/LoadableCategory.h; sourceTree = "<group>"; };
+		D45028F91F61229D0036B82E /* NSError-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError-KIFAdditions.h"; path = "UIGeometryUtils/NSError-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45028FA1F61229D0036B82E /* NSError-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError-KIFAdditions.m"; path = "UIGeometryUtils/NSError-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45028FB1F61229D0036B82E /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSException-KIFAdditions.h"; path = "UIGeometryUtils/NSException-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45028FC1F61229D0036B82E /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSException-KIFAdditions.m"; path = "UIGeometryUtils/NSException-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45028FD1F61229D0036B82E /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "UIGeometryUtils/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45028FE1F61229D0036B82E /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager-KIFAdditions.m"; path = "UIGeometryUtils/NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45028FF1F61229D0036B82E /* NSPredicate+KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+KIFAdditions.h"; path = "UIGeometryUtils/NSPredicate+KIFAdditions.h"; sourceTree = "<group>"; };
+		D45029001F61229D0036B82E /* NSPredicate+KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+KIFAdditions.m"; path = "UIGeometryUtils/NSPredicate+KIFAdditions.m"; sourceTree = "<group>"; };
+		D45029011F61229D0036B82E /* NSString+KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+KIFAdditions.h"; path = "UIGeometryUtils/NSString+KIFAdditions.h"; sourceTree = "<group>"; };
+		D45029021F61229D0036B82E /* NSString+KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+KIFAdditions.m"; path = "UIGeometryUtils/NSString+KIFAdditions.m"; sourceTree = "<group>"; };
+		D45029031F61229D0036B82E /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAccessibilityElement-KIFAdditions.h"; path = "UIGeometryUtils/UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45029041F61229D0036B82E /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "UIGeometryUtils/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45029051F61229D0036B82E /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication-KIFAdditions.h"; path = "UIGeometryUtils/UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45029061F61229D0036B82E /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication-KIFAdditions.m"; path = "UIGeometryUtils/UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45029071F61229D0036B82E /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIEvent+KIFAdditions.h"; path = "UIGeometryUtils/UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
+		D45029081F61229D0036B82E /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIEvent+KIFAdditions.m"; path = "UIGeometryUtils/UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
+		D45029091F61229D0036B82E /* UIScreen+KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+KIFAdditions.h"; path = "UIGeometryUtils/UIScreen+KIFAdditions.h"; sourceTree = "<group>"; };
+		D450290A1F61229D0036B82E /* UIScreen+KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+KIFAdditions.m"; path = "UIGeometryUtils/UIScreen+KIFAdditions.m"; sourceTree = "<group>"; };
+		D450290B1F61229D0036B82E /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView-KIFAdditions.h"; path = "UIGeometryUtils/UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
+		D450290C1F61229D0036B82E /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView-KIFAdditions.m"; path = "UIGeometryUtils/UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
+		D450290D1F61229D0036B82E /* UITableView-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView-KIFAdditions.h"; path = "UIGeometryUtils/UITableView-KIFAdditions.h"; sourceTree = "<group>"; };
+		D450290E1F61229D0036B82E /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "UIGeometryUtils/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
+		D450290F1F61229D0036B82E /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "UIGeometryUtils/UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45029101F61229D0036B82E /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "UIGeometryUtils/UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45029111F61229D0036B82E /* UIView-Debugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView-Debugging.h"; path = "UIGeometryUtils/UIView-Debugging.h"; sourceTree = "<group>"; };
+		D45029121F61229D0036B82E /* UIView-Debugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "UIGeometryUtils/UIView-Debugging.m"; sourceTree = "<group>"; };
+		D45029131F61229D0036B82E /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "UIGeometryUtils/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45029141F61229D0036B82E /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView-KIFAdditions.m"; path = "UIGeometryUtils/UIView-KIFAdditions.m"; sourceTree = "<group>"; };
+		D45029151F61229D0036B82E /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWindow-KIFAdditions.h"; path = "UIGeometryUtils/UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
+		D45029161F61229D0036B82E /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWindow-KIFAdditions.m"; path = "UIGeometryUtils/UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
+		D450292D1F6122FF0036B82E /* KIFTestActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KIFTestActor.h; path = UIGeometryUtils/KIFTestActor.h; sourceTree = "<group>"; };
+		D450292E1F6122FF0036B82E /* KIFTestActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KIFTestActor.m; path = UIGeometryUtils/KIFTestActor.m; sourceTree = "<group>"; };
+		D45029311F61238C0036B82E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D45029331F6123DE0036B82E /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IOHIDEvent+KIF.h"; path = "UIGeometryUtils/IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
+		D45029341F6123DE0036B82E /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IOHIDEvent+KIF.m"; path = "UIGeometryUtils/IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
+		D45029361F6129AC0036B82E /* UIElementUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIElementUtils.h; path = UIGeometryUtils/UIElementUtils.h; sourceTree = "<group>"; };
+		D45029371F6129AC0036B82E /* UIElementUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIElementUtils.m; path = UIGeometryUtils/UIElementUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45029321F61238C0036B82E /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +140,7 @@
 				D41180C61F5EAF6D00217522 /* AutomationKit-Bridging-Header.h */,
 				D41180611F5E960500217522 /* AutomationKit */,
 				D41180601F5E960500217522 /* Products */,
+				D45029301F61238C0036B82E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +155,9 @@
 		D41180611F5E960500217522 /* AutomationKit */ = {
 			isa = PBXGroup;
 			children = (
+				D44161091F612B3600A6A583 /* Utils */,
+				D45028EF1F6121AC0036B82E /* UIGeometryUtils */,
+				D45028E81F611E310036B82E /* API */,
 				D41180621F5E960500217522 /* AutomationKit.h */,
 				D41180631F5E960500217522 /* AutomationKit.m */,
 				D41180881F5E96CB00217522 /* HttpServer */,
@@ -129,22 +169,8 @@
 		D41180711F5E96B600217522 /* KIF */ = {
 			isa = PBXGroup;
 			children = (
-				D41180721F5E96C300217522 /* KIF.xcodeproj */,
 			);
 			name = KIF;
-			sourceTree = "<group>";
-		};
-		D41180731F5E96C300217522 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D411807D1F5E96C300217522 /* libKIF.a */,
-				D411807F1F5E96C300217522 /* Test Host.app */,
-				D41180811F5E96C300217522 /* KIF Tests - XCTest.xctest */,
-				D41180831F5E96C300217522 /* KIF.framework */,
-				D41180851F5E96C300217522 /* KIFFrameworkConsumer.app */,
-				D41180871F5E96C300217522 /* KIFFrameworkConsumerTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D41180881F5E96CB00217522 /* HttpServer */ = {
@@ -157,8 +183,90 @@
 				D411808D1F5E96F700217522 /* HTTPServer.h */,
 				D411808E1F5E96F700217522 /* HTTPServer.m */,
 				D411808F1F5E96F700217522 /* SynthesizeSingleton.h */,
+				D44161111F6130AC00A6A583 /* JSONRPCMethods.h */,
+				D44161121F6130AC00A6A583 /* JSONRPCMethods.m */,
+				D44161141F6130E800A6A583 /* JSONRPCRequest.h */,
+				D44161151F6130E800A6A583 /* JSONRPCRequest.m */,
+				D44161171F61314800A6A583 /* JSONRPCResponse.h */,
+				D44161181F61314800A6A583 /* JSONRPCResponse.m */,
 			);
 			name = HttpServer;
+			sourceTree = "<group>";
+		};
+		D44161091F612B3600A6A583 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D45029361F6129AC0036B82E /* UIElementUtils.h */,
+				D45029371F6129AC0036B82E /* UIElementUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D45028E81F611E310036B82E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D45028E91F611E7A0036B82E /* ElementryActions.h */,
+				D45028EA1F611E7A0036B82E /* ElementryActions.m */,
+				D45028EC1F611F1A0036B82E /* EnumerateElements.h */,
+				D45028ED1F611F1A0036B82E /* EnumerateElements.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D45028EF1F6121AC0036B82E /* UIGeometryUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D45029331F6123DE0036B82E /* IOHIDEvent+KIF.h */,
+				D45029341F6123DE0036B82E /* IOHIDEvent+KIF.m */,
+				D450292D1F6122FF0036B82E /* KIFTestActor.h */,
+				D450292E1F6122FF0036B82E /* KIFTestActor.m */,
+				D45028F01F61229D0036B82E /* CAAnimation+KIFAdditions.h */,
+				D45028F11F61229D0036B82E /* CAAnimation+KIFAdditions.m */,
+				D45028F21F61229D0036B82E /* CALayer-KIFAdditions.h */,
+				D45028F31F61229D0036B82E /* CALayer-KIFAdditions.m */,
+				D45028F41F61229D0036B82E /* CGGeometry-KIFAdditions.h */,
+				D45028F51F61229D0036B82E /* CGGeometry-KIFAdditions.m */,
+				D45028F61F61229D0036B82E /* LoadableCategory.h */,
+				D45028F91F61229D0036B82E /* NSError-KIFAdditions.h */,
+				D45028FA1F61229D0036B82E /* NSError-KIFAdditions.m */,
+				D45028FB1F61229D0036B82E /* NSException-KIFAdditions.h */,
+				D45028FC1F61229D0036B82E /* NSException-KIFAdditions.m */,
+				D45028FD1F61229D0036B82E /* NSFileManager-KIFAdditions.h */,
+				D45028FE1F61229D0036B82E /* NSFileManager-KIFAdditions.m */,
+				D45028FF1F61229D0036B82E /* NSPredicate+KIFAdditions.h */,
+				D45029001F61229D0036B82E /* NSPredicate+KIFAdditions.m */,
+				D45029011F61229D0036B82E /* NSString+KIFAdditions.h */,
+				D45029021F61229D0036B82E /* NSString+KIFAdditions.m */,
+				D45029031F61229D0036B82E /* UIAccessibilityElement-KIFAdditions.h */,
+				D45029041F61229D0036B82E /* UIAccessibilityElement-KIFAdditions.m */,
+				D45029051F61229D0036B82E /* UIApplication-KIFAdditions.h */,
+				D45029061F61229D0036B82E /* UIApplication-KIFAdditions.m */,
+				D45029071F61229D0036B82E /* UIEvent+KIFAdditions.h */,
+				D45029081F61229D0036B82E /* UIEvent+KIFAdditions.m */,
+				D45029091F61229D0036B82E /* UIScreen+KIFAdditions.h */,
+				D450290A1F61229D0036B82E /* UIScreen+KIFAdditions.m */,
+				D450290B1F61229D0036B82E /* UIScrollView-KIFAdditions.h */,
+				D450290C1F61229D0036B82E /* UIScrollView-KIFAdditions.m */,
+				D450290D1F61229D0036B82E /* UITableView-KIFAdditions.h */,
+				D450290E1F61229D0036B82E /* UITableView-KIFAdditions.m */,
+				D450290F1F61229D0036B82E /* UITouch-KIFAdditions.h */,
+				D45029101F61229D0036B82E /* UITouch-KIFAdditions.m */,
+				D45029111F61229D0036B82E /* UIView-Debugging.h */,
+				D45029121F61229D0036B82E /* UIView-Debugging.m */,
+				D45029131F61229D0036B82E /* UIView-KIFAdditions.h */,
+				D45029141F61229D0036B82E /* UIView-KIFAdditions.m */,
+				D45029151F61229D0036B82E /* UIWindow-KIFAdditions.h */,
+				D45029161F61229D0036B82E /* UIWindow-KIFAdditions.m */,
+			);
+			name = UIGeometryUtils;
+			sourceTree = "<group>";
+		};
+		D45029301F61238C0036B82E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45029311F61238C0036B82E /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +301,7 @@
 					D411805E1F5E960500217522 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = B2K9DE64W6;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -207,12 +316,6 @@
 			mainGroup = D41180561F5E960500217522;
 			productRefGroup = D41180601F5E960500217522 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D41180731F5E96C300217522 /* Products */;
-					ProjectRef = D41180721F5E96C300217522 /* KIF.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D411805E1F5E960500217522 /* AutomationKit */,
@@ -220,60 +323,41 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D411807D1F5E96C300217522 /* libKIF.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libKIF.a;
-			remoteRef = D411807C1F5E96C300217522 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D411807F1F5E96C300217522 /* Test Host.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Test Host.app";
-			remoteRef = D411807E1F5E96C300217522 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D41180811F5E96C300217522 /* KIF Tests - XCTest.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "KIF Tests - XCTest.xctest";
-			remoteRef = D41180801F5E96C300217522 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D41180831F5E96C300217522 /* KIF.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = KIF.framework;
-			remoteRef = D41180821F5E96C300217522 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D41180851F5E96C300217522 /* KIFFrameworkConsumer.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = KIFFrameworkConsumer.app;
-			remoteRef = D41180841F5E96C300217522 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D41180871F5E96C300217522 /* KIFFrameworkConsumerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KIFFrameworkConsumerTests.xctest;
-			remoteRef = D41180861F5E96C300217522 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
 		D411805B1F5E960500217522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D450291A1F61229D0036B82E /* CALayer-KIFAdditions.m in Sources */,
+				D45029191F61229D0036B82E /* CAAnimation+KIFAdditions.m in Sources */,
+				D45029211F61229D0036B82E /* NSString+KIFAdditions.m in Sources */,
+				D450291B1F61229D0036B82E /* CGGeometry-KIFAdditions.m in Sources */,
+				D44161161F6130E800A6A583 /* JSONRPCRequest.m in Sources */,
+				D45029261F61229D0036B82E /* UIScrollView-KIFAdditions.m in Sources */,
+				D45029271F61229D0036B82E /* UITableView-KIFAdditions.m in Sources */,
+				D450292F1F6122FF0036B82E /* KIFTestActor.m in Sources */,
+				D45029201F61229D0036B82E /* NSPredicate+KIFAdditions.m in Sources */,
+				D45029221F61229D0036B82E /* UIAccessibilityElement-KIFAdditions.m in Sources */,
+				D45029231F61229D0036B82E /* UIApplication-KIFAdditions.m in Sources */,
 				D41180641F5E960500217522 /* AutomationKit.m in Sources */,
+				D45029241F61229D0036B82E /* UIEvent+KIFAdditions.m in Sources */,
+				D45028EB1F611E7A0036B82E /* ElementryActions.m in Sources */,
+				D45029351F6123DE0036B82E /* IOHIDEvent+KIF.m in Sources */,
+				D44161131F6130AC00A6A583 /* JSONRPCMethods.m in Sources */,
 				D41180941F5E96F700217522 /* AppTextFileResponse.m in Sources */,
+				D45029281F61229D0036B82E /* UITouch-KIFAdditions.m in Sources */,
+				D450292A1F61229D0036B82E /* UIView-KIFAdditions.m in Sources */,
+				D450292B1F61229D0036B82E /* UIWindow-KIFAdditions.m in Sources */,
+				D450291D1F61229D0036B82E /* NSError-KIFAdditions.m in Sources */,
 				D41180C81F5EBAC800217522 /* HTTPServer.m in Sources */,
 				D41180951F5E96F700217522 /* HTTPResponseHandler.m in Sources */,
+				D45028EE1F611F1A0036B82E /* EnumerateElements.m in Sources */,
+				D45029381F6129AD0036B82E /* UIElementUtils.m in Sources */,
+				D450291F1F61229D0036B82E /* NSFileManager-KIFAdditions.m in Sources */,
+				D44161191F61314800A6A583 /* JSONRPCResponse.m in Sources */,
+				D450291E1F61229D0036B82E /* NSException-KIFAdditions.m in Sources */,
+				D45029251F61229D0036B82E /* UIScreen+KIFAdditions.m in Sources */,
+				D45029291F61229D0036B82E /* UIView-Debugging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,20 +457,27 @@
 		D41180691F5E960500217522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B2K9DE64W6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D411806A1F5E960500217522 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B2K9DE64W6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

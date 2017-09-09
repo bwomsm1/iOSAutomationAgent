@@ -11,6 +11,4 @@
 
 #import "AutomationKit/AutomationKit.h"
 
-#import "AutomationKit/HttpServer/HTTPServer.h"
-
 #endif /* AutomationKit_Bridging_Header_h */

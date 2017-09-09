@@ -14,6 +14,7 @@
 		D411809B1F5E99BB00217522 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411809A1F5E99BB00217522 /* CFNetwork.framework */; };
 		D411809D1F5E9A2800217522 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411809C1F5E9A2800217522 /* AVFoundation.framework */; };
 		D41180C91F5EBBB600217522 /* libAutomationKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D41180701F5E960600217522 /* libAutomationKit.a */; };
+		D44161411F61DEA300A6A583 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44161401F61DEA300A6A583 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D411806B1F5E960500217522 /* AutomationKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutomationKit.xcodeproj; path = ../AutomationKit/AutomationKit.xcodeproj; sourceTree = "<group>"; };
 		D411809A1F5E99BB00217522 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D411809C1F5E9A2800217522 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D44161401F61DEA300A6A583 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 				D41180C91F5EBBB600217522 /* libAutomationKit.a in Frameworks */,
 				D411809D1F5E9A2800217522 /* AVFoundation.framework in Frameworks */,
 				D411809B1F5E99BB00217522 /* CFNetwork.framework in Frameworks */,
+				D44161411F61DEA300A6A583 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 		D41180991F5E99BB00217522 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D44161401F61DEA300A6A583 /* IOKit.framework */,
 				D411809C1F5E9A2800217522 /* AVFoundation.framework */,
 				D411809A1F5E99BB00217522 /* CFNetwork.framework */,
 			);
@@ -307,6 +311,7 @@
 				DEVELOPMENT_TEAM = B2K9DE64W6;
 				INFOPLIST_FILE = AutomationExampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "Applicaster-LTD.AutomationExampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -320,6 +325,7 @@
 				DEVELOPMENT_TEAM = B2K9DE64W6;
 				INFOPLIST_FILE = AutomationExampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "Applicaster-LTD.AutomationExampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

@@ -24,7 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.rootViewController = mainViewController
         window!.makeKeyAndVisible()
         
-        HTTPServer.shared().start()
+        AutomationKit.sharedInstance().start()
+        
         return true
     }
 
