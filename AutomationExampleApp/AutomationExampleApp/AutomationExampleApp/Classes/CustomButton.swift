@@ -22,18 +22,24 @@ class CustomButton: UIButton, AutomationElementView {
     }
     
     private func setupButton(backgroundColor: UIColor, title: String, tag: Int) {
+        self.tag = tag
         self.backgroundColor = backgroundColor
         self.setTitle(title, for: .normal)
         self.setTitleColor(UIColor.black, for: .normal)
         self.layer.borderColor = UIColor.black.cgColor
         self.layer.borderWidth = 3.0
-        self.tag = tag
     }
     
     public func enumerateElements() -> Bool {
-        let basePoint = self.superview?.convert(self.frame.origin, to: nil)
         
-        let stream: DataStream = DataStream()
+        let stream: DataStream = EnumerateElements.stream()
+        stream.beginDictionary(nil)
+        
+        let basePoint = self.superview?.convert(self.frame.origin, to: nil)
+        stream.add(String(describing: CustomButton.self), key: "element_type")
+        stream.add(self.currentTitle, key: "title")
+        stream.add(Float((basePoint?.x)!), key: "x_pos")
+        stream.add(Float((basePoint?.y)!), key: "y_pos")
         
         stream.end()
         return true

@@ -2,4 +2,70 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutomationExampleApp/AutomationExampleApp/Classes/CustomButton.swift"
+            timestampString = "526741234.687297"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "enumerateElements()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutomationExampleApp.CustomButton.enumerateElements () -&gt; Swift.Bool"
+                  moduleName = "AutomationExampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bwarshaw/workspace/xCode/iOSAutomationAgent/AutomationExampleApp/AutomationExampleApp/AutomationExampleApp/Classes/CustomButton.swift"
+                  timestampString = "526735093.289129"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutomationExampleApp.CustomButton.enumerateElements () -&gt; Swift.Bool"
+                  moduleName = "AutomationExampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bwarshaw/workspace/xCode/iOSAutomationAgent/AutomationExampleApp/AutomationExampleApp/AutomationExampleApp/Classes/CustomButton.swift"
+                  timestampString = "526735093.291194"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "808">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutomationKit/AutomationKit/API/EnumerateElements.m"
+            timestampString = "526735000.445221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "-enumerateElements:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
