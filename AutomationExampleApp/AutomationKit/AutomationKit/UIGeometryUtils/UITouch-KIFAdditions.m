@@ -84,7 +84,7 @@ typedef struct {
 
 - (id)initAtPoint:(CGPoint)point inView:(UIView *)view;
 {
-    return [self initAtPoint:[view.window convertPoint:point fromView:view] inWindow:view.window];
+    return [self initAtPoint:point inWindow:view.window];
 }
 
 //

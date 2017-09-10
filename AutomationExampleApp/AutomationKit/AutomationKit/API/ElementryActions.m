@@ -127,11 +127,7 @@
                 [view longPressAtPoint:tapPoint duration:duration/1000];
             } else {
                 for(NSInteger tapIndex = 0; tapIndex < tapCount; tapIndex++) {
-                    if ([view respondsToSelector:@selector(isHidden)]) {
-                        
-                        [view tapAtPoint:tapPoint];
-                    }
-                    
+                    [view tapAtPoint:tapPoint];
                 }
             }
             result = true;
