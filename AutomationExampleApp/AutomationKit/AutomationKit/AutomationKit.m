@@ -10,9 +10,7 @@
 #import "JSONRPCMethods.h"
 #import "ElementryActions.h"
 #import "EnumerateElements.h"
-#include "HTTPServer.h"
-#import "JSONRPCResponse.h"
-#import "AppTextFileResponse.h"
+#import "HTTPServer.h"
 
 //=========================================================================
 // Private Interface
