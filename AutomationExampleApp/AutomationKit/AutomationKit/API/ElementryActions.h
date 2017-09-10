@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "JSONRPCMethods.h"
 
+
 //=========================================================================
 // Public Interface
 //=========================================================================
-@interface ElementryActions : NSObject <IJSONRPCMethodHandler>
-//+ (id)sharedManager;
+@interface ElementryActions : NSObject <JSONRPCMethodHandler>
 @end

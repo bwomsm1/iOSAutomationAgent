@@ -23,16 +23,6 @@
 // Public Implementation
 //=========================================================================
 @implementation ElementryActions
-
-//+ (id)sharedManager {
-//    static ElementryActions *sharedManager = nil;
-//    static dispatch_once_t onceToken;
-//    dispatch_once(&onceToken, ^{
-//        sharedManager = [[self alloc] init];
-//    });
-//    return sharedManager;
-//}
-
 - (NSString*) executeWithParams:(NSArray *)params {
     
     NSString* jsonString = @"null";
@@ -94,7 +84,6 @@
         jsonString = @"Cannot find window in application";
     }
     
-    
     return jsonString;
 }
 
@@ -106,8 +95,7 @@
 //=========================================================================
 @implementation ElementryActions (Private)
 
-- (bool) tap:(UIWindow*)window params:(NSDictionary*)params
-{
+- (bool) tap:(UIWindow*)window params:(NSDictionary*)params {
     bool result = false;
     NSString * elementId = nil, * elementLabel = nil;
     NSInteger tapCount = 1, duration = 0, fingerCount = 1;

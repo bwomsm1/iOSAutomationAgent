@@ -9,6 +9,7 @@
 #import "AutomationKit.h"
 #import "JSONRPCMethods.h"
 #import "ElementryActions.h"
+#import "EnumerateElements.h"
 #include "HTTPServer.h"
 #import "JSONRPCResponse.h"
 #import "AppTextFileResponse.h"
@@ -76,6 +77,7 @@ HTTPServer *httpServer_ = nil;
     [JSONRPCResponse class];
     [AppTextFileResponse class];
     [[JSONRPCMethods sharedJSONRPCMethods] registerMethod:@"elementryActions" RequestHandler:[[ElementryActions alloc] init]];
+    [[JSONRPCMethods sharedJSONRPCMethods] registerMethod:@"enumerateElements" RequestHandler:[[EnumerateElements alloc] init]];
 }
 
 @end

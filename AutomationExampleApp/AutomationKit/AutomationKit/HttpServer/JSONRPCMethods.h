@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol IJSONRPCMethodHandler <NSObject>
+@protocol JSONRPCMethodHandler <NSObject>
 
 -(NSString *)executeWithParams:(NSArray *)params;
 
@@ -16,9 +16,9 @@
 
 @interface JSONRPCMethods : NSObject
 
--(void)registerMethod:(NSString *)method RequestHandler:(id<IJSONRPCMethodHandler>)handler;
--(BOOL)methodSupported:(NSString *)method;
--(NSString *)executeMethod:(NSString *)method  WithParams:(NSArray *)params;
-+ (JSONRPCMethods *)sharedJSONRPCMethods;
++ (JSONRPCMethods *) sharedJSONRPCMethods;
+- (void) registerMethod:(NSString *)method RequestHandler:(id<JSONRPCMethodHandler>)handler;
+- (BOOL) methodSupported:(NSString *)method;
+- (NSString *) executeMethod:(NSString *)method WithParams:(NSArray *)params;
 
 @end

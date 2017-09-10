@@ -2,12 +2,28 @@
 //  EnumerateElements.h
 //  AutomationKit
 //
-//  Created by Boaz Warshawsky on 07/09/2017.
+//  Created by Boaz Warshawsky on 10/09/2017.
 //  Copyright © 2017 Boaz Warshawsky. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "DataStream.h"
+#import "JSONRPCMethods.h"
 
-@interface EnumerateElements : NSObject
 
+//=========================================================================
+// Public Protocols
+//=========================================================================
+@protocol AutomationElementView <NSObject>
+
+- (BOOL) enumerateAutomationView;
+
+@end
+
+
+//=========================================================================
+// Public Interface
+//=========================================================================
+@interface EnumerateElements : NSObject <JSONRPCMethodHandler>
++ (DataStream*) stream;
 @end

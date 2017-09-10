@@ -6,8 +6,8 @@
 //  Copyright © 2017 Boaz Warshawsky. All rights reserved.
 //
 
-#import "JSONRPCRequest.h"
 #import "JSONRPCResponse.h"
+#import "JSONRPCRequest.h"
 #import "HTTPServer.h"
 #import "JSONRPCMethods.h"
 
@@ -15,7 +15,6 @@
 
 + (void)load
 {
-    NSLog(@"Loading JSONRPCResponse");
     [HTTPResponseHandler registerHandler:self];
 }
 
@@ -76,7 +75,7 @@
         }
         else
         {
-            errorMsg = @"EnumerateMilestones error";
+            errorMsg = @"EnumerateElements error";
         }
     }
     else

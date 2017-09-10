@@ -14,7 +14,7 @@
 
 NSMutableDictionary *requestHandlers = nil;
 
--(void)registerMethod:(NSString *)method RequestHandler:(id<IJSONRPCMethodHandler>)handler
+-(void)registerMethod:(NSString *)method RequestHandler:(id<JSONRPCMethodHandler>)handler
 {
     if (requestHandlers)
     {
@@ -33,7 +33,7 @@ NSMutableDictionary *requestHandlers = nil;
 
 -(NSString *)executeMethod:(NSString *)method WithParams:(NSArray *)params
 {
-    id<IJSONRPCMethodHandler> methodHandler = requestHandlers[method];
+    id<JSONRPCMethodHandler> methodHandler = requestHandlers[method];
     NSString *responseString = nil;
     
     if (methodHandler)

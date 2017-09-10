@@ -12,11 +12,9 @@
 		D41180941F5E96F700217522 /* AppTextFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808A1F5E96F700217522 /* AppTextFileResponse.m */; };
 		D41180951F5E96F700217522 /* HTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808C1F5E96F700217522 /* HTTPResponseHandler.m */; };
 		D41180C81F5EBAC800217522 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = D411808E1F5E96F700217522 /* HTTPServer.m */; };
-		D44161131F6130AC00A6A583 /* JSONRPCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = D44161121F6130AC00A6A583 /* JSONRPCMethods.m */; };
 		D44161161F6130E800A6A583 /* JSONRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D44161151F6130E800A6A583 /* JSONRPCRequest.m */; };
 		D44161191F61314800A6A583 /* JSONRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D44161181F61314800A6A583 /* JSONRPCResponse.m */; };
 		D45028EB1F611E7A0036B82E /* ElementryActions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028EA1F611E7A0036B82E /* ElementryActions.m */; };
-		D45028EE1F611F1A0036B82E /* EnumerateElements.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028ED1F611F1A0036B82E /* EnumerateElements.m */; };
 		D45029191F61229D0036B82E /* CAAnimation+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028F11F61229D0036B82E /* CAAnimation+KIFAdditions.m */; };
 		D450291A1F61229D0036B82E /* CALayer-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028F31F61229D0036B82E /* CALayer-KIFAdditions.m */; };
 		D450291B1F61229D0036B82E /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D45028F51F61229D0036B82E /* CGGeometry-KIFAdditions.m */; };
@@ -39,6 +37,9 @@
 		D45029321F61238C0036B82E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45029311F61238C0036B82E /* XCTest.framework */; };
 		D45029351F6123DE0036B82E /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029341F6123DE0036B82E /* IOHIDEvent+KIF.m */; };
 		D45029381F6129AD0036B82E /* UIElementUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D45029371F6129AC0036B82E /* UIElementUtils.m */; };
+		D4A2C7931F650E11004AD58D /* DataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A2C7921F650E11004AD58D /* DataStream.m */; };
+		D4A2C7971F652CC7004AD58D /* JSONRPCMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = D44161121F6130AC00A6A583 /* JSONRPCMethods.m */; };
+		D4A2C79A1F653019004AD58D /* EnumerateElements.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A2C7991F653019004AD58D /* EnumerateElements.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,15 @@
 			dstSubfolderSpec = 16;
 			files = (
 				D41180651F5E960500217522 /* AutomationKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A2C7961F652CB5004AD58D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +84,6 @@
 		D44161181F61314800A6A583 /* JSONRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONRPCResponse.m; path = HttpServer/JSONRPCResponse.m; sourceTree = "<group>"; };
 		D45028E91F611E7A0036B82E /* ElementryActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ElementryActions.h; path = API/ElementryActions.h; sourceTree = "<group>"; };
 		D45028EA1F611E7A0036B82E /* ElementryActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ElementryActions.m; path = API/ElementryActions.m; sourceTree = "<group>"; };
-		D45028EC1F611F1A0036B82E /* EnumerateElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnumerateElements.h; path = API/EnumerateElements.h; sourceTree = "<group>"; };
-		D45028ED1F611F1A0036B82E /* EnumerateElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnumerateElements.m; path = API/EnumerateElements.m; sourceTree = "<group>"; };
 		D45028F01F61229D0036B82E /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "UIGeometryUtils/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
 		D45028F11F61229D0036B82E /* CAAnimation+KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+KIFAdditions.m"; path = "UIGeometryUtils/CAAnimation+KIFAdditions.m"; sourceTree = "<group>"; };
 		D45028F21F61229D0036B82E /* CALayer-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer-KIFAdditions.h"; path = "UIGeometryUtils/CALayer-KIFAdditions.h"; sourceTree = "<group>"; };
@@ -120,6 +128,10 @@
 		D45029341F6123DE0036B82E /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IOHIDEvent+KIF.m"; path = "UIGeometryUtils/IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
 		D45029361F6129AC0036B82E /* UIElementUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIElementUtils.h; path = UIGeometryUtils/UIElementUtils.h; sourceTree = "<group>"; };
 		D45029371F6129AC0036B82E /* UIElementUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIElementUtils.m; path = UIGeometryUtils/UIElementUtils.m; sourceTree = "<group>"; };
+		D4A2C7911F650E11004AD58D /* DataStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataStream.h; path = API/DataStream.h; sourceTree = "<group>"; };
+		D4A2C7921F650E11004AD58D /* DataStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataStream.m; path = API/DataStream.m; sourceTree = "<group>"; };
+		D4A2C7981F653019004AD58D /* EnumerateElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnumerateElements.h; path = API/EnumerateElements.h; sourceTree = "<group>"; };
+		D4A2C7991F653019004AD58D /* EnumerateElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnumerateElements.m; path = API/EnumerateElements.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,8 +219,10 @@
 			children = (
 				D45028E91F611E7A0036B82E /* ElementryActions.h */,
 				D45028EA1F611E7A0036B82E /* ElementryActions.m */,
-				D45028EC1F611F1A0036B82E /* EnumerateElements.h */,
-				D45028ED1F611F1A0036B82E /* EnumerateElements.m */,
+				D4A2C7911F650E11004AD58D /* DataStream.h */,
+				D4A2C7921F650E11004AD58D /* DataStream.m */,
+				D4A2C7981F653019004AD58D /* EnumerateElements.h */,
+				D4A2C7991F653019004AD58D /* EnumerateElements.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -279,6 +293,8 @@
 				D411805B1F5E960500217522 /* Sources */,
 				D411805C1F5E960500217522 /* Frameworks */,
 				D411805D1F5E960500217522 /* CopyFiles */,
+				D4A2C7941F652C4E004AD58D /* Resources */,
+				D4A2C7961F652CB5004AD58D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -323,16 +339,28 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		D4A2C7941F652C4E004AD58D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D411805B1F5E960500217522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A2C7971F652CC7004AD58D /* JSONRPCMethods.m in Sources */,
 				D450291A1F61229D0036B82E /* CALayer-KIFAdditions.m in Sources */,
 				D45029191F61229D0036B82E /* CAAnimation+KIFAdditions.m in Sources */,
 				D45029211F61229D0036B82E /* NSString+KIFAdditions.m in Sources */,
 				D450291B1F61229D0036B82E /* CGGeometry-KIFAdditions.m in Sources */,
 				D44161161F6130E800A6A583 /* JSONRPCRequest.m in Sources */,
+				D4A2C79A1F653019004AD58D /* EnumerateElements.m in Sources */,
 				D45029261F61229D0036B82E /* UIScrollView-KIFAdditions.m in Sources */,
 				D45029271F61229D0036B82E /* UITableView-KIFAdditions.m in Sources */,
 				D450292F1F6122FF0036B82E /* KIFTestActor.m in Sources */,
@@ -343,15 +371,14 @@
 				D45029241F61229D0036B82E /* UIEvent+KIFAdditions.m in Sources */,
 				D45028EB1F611E7A0036B82E /* ElementryActions.m in Sources */,
 				D45029351F6123DE0036B82E /* IOHIDEvent+KIF.m in Sources */,
-				D44161131F6130AC00A6A583 /* JSONRPCMethods.m in Sources */,
 				D41180941F5E96F700217522 /* AppTextFileResponse.m in Sources */,
 				D45029281F61229D0036B82E /* UITouch-KIFAdditions.m in Sources */,
 				D450292A1F61229D0036B82E /* UIView-KIFAdditions.m in Sources */,
 				D450292B1F61229D0036B82E /* UIWindow-KIFAdditions.m in Sources */,
+				D4A2C7931F650E11004AD58D /* DataStream.m in Sources */,
 				D450291D1F61229D0036B82E /* NSError-KIFAdditions.m in Sources */,
 				D41180C81F5EBAC800217522 /* HTTPServer.m in Sources */,
 				D41180951F5E96F700217522 /* HTTPResponseHandler.m in Sources */,
-				D45028EE1F611F1A0036B82E /* EnumerateElements.m in Sources */,
 				D45029381F6129AD0036B82E /* UIElementUtils.m in Sources */,
 				D450291F1F61229D0036B82E /* NSFileManager-KIFAdditions.m in Sources */,
 				D44161191F61314800A6A583 /* JSONRPCResponse.m in Sources */,

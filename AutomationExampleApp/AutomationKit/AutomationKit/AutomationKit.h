@@ -9,14 +9,13 @@
 #import <Foundation/Foundation.h>
 
 
-
 //=========================================================================
 // Public Interface
 //=========================================================================
 @interface AutomationKit : NSObject
 
++ (AutomationKit*) sharedInstance;
 - (void) startAutomationKit;
 - (void) closeAutomationKit;
 
-+ (AutomationKit*) sharedInstance;
 @end
