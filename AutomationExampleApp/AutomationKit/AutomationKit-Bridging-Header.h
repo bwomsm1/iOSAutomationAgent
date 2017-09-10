@@ -10,5 +10,7 @@
 #define AutomationKit_Bridging_Header_h
 
 #import "AutomationKit/AutomationKit.h"
+#import "AutomationKit/API/EnumerateElements.h"
+
 
 #endif /* AutomationKit_Bridging_Header_h */

@@ -26,7 +26,6 @@
     NSString* jsonString = nil;
     
     UIWindow *window = [[UIApplication sharedApplication].delegate window];
-    BOOL inTrans = NO;
     BOOL hasWindow = window != nil;
     
     [stream empty];
@@ -34,12 +33,11 @@
     if (hasWindow) {
         [stream beginArray:@"elements"];
         [stream beginDictionary:nil];
-        [stream addBool:inTrans key:@"in-transition"];
         [stream end];
         [self enumerateElements: window];
         [stream end];
     }
-    NSLog(@"executeWithParams: hasWindow=%i, in-transition=%i", hasWindow, inTrans);
+    NSLog(@"executeWithParams: hasWindow=%i", hasWindow);
     
     jsonString = [stream json];
     return jsonString;
@@ -142,7 +140,7 @@
     
     if ([[view class] conformsToProtocol:@protocol(AutomationElementView)] ==  YES)
     {
-        result = [(id<AutomationElementView>)view enumerateAutomationView];
+        result = [(id<AutomationElementView>)view enumerateViewElements];
     }
     else if ([view isKindOfClass:[UITextField class]])
     {

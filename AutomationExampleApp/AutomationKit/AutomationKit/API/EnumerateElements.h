@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DataStream.h"
-#import "JSONRPCMethods.h"
+#import "../HttpServer/JSONRPCMethods.h"
 
 
 //=========================================================================
@@ -16,7 +16,7 @@
 //=========================================================================
 @protocol AutomationElementView <NSObject>
 
-- (BOOL) enumerateAutomationView;
+- (BOOL) enumerateViewElements;
 
 @end
 
