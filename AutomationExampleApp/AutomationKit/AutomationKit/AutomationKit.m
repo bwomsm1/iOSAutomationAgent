@@ -18,7 +18,7 @@
 // Private Interface
 //=========================================================================
 @interface AutomationKit (Private)
-- (void) setupServices;
+- (void) setupAgentAPIs;
 @end
 
 //=========================================================================
@@ -37,26 +37,11 @@ HTTPServer *httpServer_ = nil;
     return instance;
 }
 
-
 - (void) startAutomationKit {
     httpServer_ = [HTTPServer sharedHTTPServer];
-    [self setupServices];
+    [self setupAgentAPIs];
     [httpServer_ start];
 }
-//+ (void) startAutomationServer:(short)port {
-//    
-//    
-//    
-//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-//        
-//        [NSThread sleepForTimeInterval:10];
-//        
-//        UIWindow *window = [[UIApplication sharedApplication].delegate window];
-//        
-//        
-//    });
-//    
-//}
 
 - (void) closeAutomationKit {
     if (httpServer_ && ([httpServer_ state] == SERVER_STATE_STARTING || [httpServer_ state] == SERVER_STATE_RUNNING)) {
@@ -73,9 +58,7 @@ HTTPServer *httpServer_ = nil;
 //=========================================================================
 @implementation AutomationKit (Private)
 
-- (void) setupServices {
-    [JSONRPCResponse class];
-    [AppTextFileResponse class];
+- (void) setupAgentAPIs {
     [[JSONRPCMethods sharedJSONRPCMethods] registerMethod:@"elementryActions" RequestHandler:[[ElementryActions alloc] init]];
     [[JSONRPCMethods sharedJSONRPCMethods] registerMethod:@"enumerateElements" RequestHandler:[[EnumerateElements alloc] init]];
 }
