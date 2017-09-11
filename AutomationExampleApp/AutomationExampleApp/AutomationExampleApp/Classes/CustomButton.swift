@@ -37,7 +37,7 @@ class CustomButton: UIButton, AutomationElementView {
         
         let basePoint = self.superview?.convert(self.frame.origin, to: nil)
         stream.add(String(describing: CustomButton.self), key: "element_type")
-        stream.add(self.currentTitle, key: "title")
+        stream.add(String(describing: self.currentTitle), key: "title")
         stream.add(Float((basePoint?.x)!), key: "x_pos")
         stream.add(Float((basePoint?.y)!), key: "y_pos")
         
